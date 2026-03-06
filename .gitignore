@@ -1,0 +1,37 @@
+# Cache
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+
+# Logs
+*.log
+crash.log
+logs/
+
+# Dados locais
+config.json
+license.json
+crop_cache.json
+profiles.json
+
+# Vídeos (manter pastas, ignorar conteúdo)
+input_videos/*
+!input_videos/.gitkeep
+output_videos/*
+!output_videos/.gitkeep
+
+# Temporários
+*.tmp
+temp_frame.jpg
+ffmpeg2pass*
+
+# Build
+build/
+dist/
+*.spec
+*.exe
+
+# IDE
+.vscode/
+.idea/

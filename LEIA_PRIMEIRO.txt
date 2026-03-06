@@ -1,0 +1,74 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    LORDE DARK EDIT - GUIA RÁPIDO                             ║
+║                       by LordeDigital / FantomStore                          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════════════════════
+                          PRIMEIRA VEZ USANDO?
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Clique com BOTÃO DIREITO em "INSTALAR_DEPENDENCIAS.bat"
+2. Selecione "Executar como administrador"
+3. Aguarde a instalação completar
+4. Depois, execute "INICIAR.bat" normalmente
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    PROBLEMAS COMUNS E SOLUÇÕES
+═══════════════════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA: Vídeos não carregam / ficam "carregando" infinitamente
+   SOLUÇÃO:  Execute INSTALAR_DEPENDENCIAS.bat como administrador
+             Isso vai instalar o FFmpeg que é necessário para processar vídeos.
+
+❌ PROBLEMA: Antivírus bloqueando o aplicativo
+   SOLUÇÃO:  Adicione as seguintes exceções no seu antivírus:
+             - A pasta inteira do aplicativo
+             - O arquivo tools\ffmpeg\bin\ffmpeg.exe
+             
+             No Windows Defender, o instalador faz isso automaticamente.
+             Em outros antivírus (Avast, AVG, Kaspersky), faça manualmente.
+
+❌ PROBLEMA: "Python não encontrado"
+   SOLUÇÃO:  Execute INSTALAR_DEPENDENCIAS.bat como administrador
+             Ele vai baixar e instalar o Python automaticamente.
+
+❌ PROBLEMA: Aplicativo fecha sozinho / trava
+   SOLUÇÃO:  1. Verifique o arquivo "crash.log" na pasta do aplicativo
+             2. Execute INSTALAR_DEPENDENCIAS.bat novamente
+             3. Reinicie o computador e tente novamente
+
+❌ PROBLEMA: Erro de conexão / licença
+   SOLUÇÃO:  Verifique sua conexão com a internet.
+             O aplicativo precisa conectar ao servidor para validar a licença.
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                         REQUISITOS DO SISTEMA
+═══════════════════════════════════════════════════════════════════════════════
+
+• Windows 10 ou superior (64 bits)
+• 4GB de RAM (8GB recomendado)
+• 500MB de espaço em disco
+• Conexão com internet (para ativação)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              ARQUIVOS
+═══════════════════════════════════════════════════════════════════════════════
+
+INSTALAR_DEPENDENCIAS.bat  → Instala tudo que precisa (execute PRIMEIRO)
+INICIAR.bat                → Abre o aplicativo
+DIAGNOSTICO.py             → Verifica se está tudo instalado corretamente
+crash.log                  → Arquivo de erros (se houver problemas)
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              SUPORTE
+═══════════════════════════════════════════════════════════════════════════════
+
+Se nada funcionar, entre em contato com o suporte enviando:
+1. Screenshot do erro
+2. O arquivo crash.log (se existir)
+3. Resultado do DIAGNOSTICO.py
+

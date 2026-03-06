@@ -1,0 +1,41 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║             COMO OBTER SUA API KEY DO ROBOFLOW                            ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+O Lorde Dark Edit utiliza a API do Roboflow para detecção automática de 
+rostos e áreas de interesse nos vídeos. Para utilizar este recurso, você
+precisa de uma API Key.
+
+PASSO A PASSO:
+─────────────────────────────────────────────────────────────────────────────
+
+1. Acesse: https://roboflow.com
+2. Crie uma conta gratuita ou faça login
+3. No painel, clique no seu perfil (canto superior direito)
+4. Selecione "Settings" → "API Keys"
+5. Copie sua chave API (Private API Key)
+
+COMO USAR NO LORDE DARK EDIT:
+─────────────────────────────────────────────────────────────────────────────
+
+Opção 1 - Arquivo de Configuração:
+   Crie um arquivo "roboflow_config.json" na pasta do programa com:
+   {
+       "api_key": "SUA_CHAVE_AQUI"
+   }
+
+Opção 2 - Dentro do Programa:
+   O programa já vem com uma chave padrão configurada.
+   Para mudar, acesse Configurações → API Key
+
+LIMITE GRATUITO:
+─────────────────────────────────────────────────────────────────────────────
+
+O plano gratuito do Roboflow permite:
+- 1.000 detecções por mês
+- Sem limite de projetos
+
+Para uso profissional, considere um plano pago em https://roboflow.com/pricing
+
+─────────────────────────────────────────────────────────────────────────────
+Dúvidas? Contate: fantomstore.com.br
