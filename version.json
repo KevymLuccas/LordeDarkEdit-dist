@@ -1,9 +1,9 @@
 {
     "version": "1.1.0",
     "min_version": "1.1.0",
-    "changelog": "MELHORIA: Qualidade de vídeo otimizada para redes sociais (10 Mbps, sem perda de qualidade)",
+    "changelog": "- Qualidade de video otimizada para redes sociais (10 Mbps)\n- Sistema de auto-update automatico\n- Melhorias de estabilidade",
     "release_date": "2026-03-06",
-    "download_url": "https://github.com/KevymLuccas/LordeDarkEdit-dist/archive/refs/heads/master.zip",
-    "force_update": true,
-    "message": "Atualização obrigatória - Qualidade de vídeo melhorada!"
+    "download_url": "https://github.com/KevymLuccas/LordeDarkEdit-dist/releases/download/v1.1.0/LordeDarkEdit.exe",
+    "force_update": false,
+    "message": "Nova versao disponivel!"
 }
